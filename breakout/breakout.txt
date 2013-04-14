@@ -1,0 +1,42 @@
++---------------------------------------------------------------+
+|                          Breakout v0.1                        |
+|                      by Joe Wingbermuehle                     |
+|                           19990305                            |
++---------------------------------------------------------------+
+
+>Requirements
+This program was written for use with DoorsOS or any other
+compatible TI-89 shell.
+This program requires the util library.
+
+>Description
+This is the classic game of Breakout! The object of Breakout is to
+break all the bricks in a level by bouncing the ball off of them. You
+must prevent the ball from hitting the ground with the paddle while
+trying to aim at the bricks as well. When you hit a brick, sometimes
+a falling block will fall out of it. Some of these falling blocks do
+good things and some of them do not. You will soon figure out what
+each does.
+This program is not yet finished. I have many more features I would
+like to add and fix. It shound not crash at least...
+
+>Keys
+Use the right/left arrow keys to move the paddle.
+[2nd] starts the ball in motion.
+[diamond] pauses the game and shuts off the calculator.
+[shift] takes away one life and puts the ball on the paddle.
+[ESC] exits the game
+Use the keyboard to enter your intials if you get a high score.
+
+>History
+Version 0.1 <> 19990305
+        Size: 4443 bytes
+        -First release!
+        -Many features to be added.
+
+>Features to be added
+        -External levels.
+        -More falling blocks.
+
+Joe Wingbermuehle
+http://joewing.net

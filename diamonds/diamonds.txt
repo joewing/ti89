@@ -1,0 +1,82 @@
++---------------------------------------------+
+| Diamonds v0.5 by Joe Wingbermuehle 19990307 |
++---------------------------------------------+
+
+>Beta
+This is a beta release. Some bugs may be in the program. If you
+find any bugs, please report them to me.
+
+>Requirements
+This program is written for a TI-89 with DoorsOS or any compatible
+shell installed. It requires the Util library.
+
+>Description
+Diamonds is a Breakout type game with a twist. Instead of moving a
+paddle to hit a ball, you move the ball right and left to get certain
+diamonds.
+
+>Object
+The object of the game is to get all the diamonds in as little time
+as possible. There is a ticking bonus. Therefore the faster you get
+the diamonds, the higher your score will be.
+
+>Description of the Blocks
+The blocks with a cross in them kill you. The blocks that are half
+black with a pattern change the type of diamond you can get to that
+pattern. The diamonds with the thin border you must get first or lose
+a life to get. The diamonds with the thick border you must get last.
+The mostly black blocks with a few dots do nothing except stop the
+ball from going in that direction. The blocks with the two arrows
+switches the direction that the arrow keys move the ball. Lastly,
+there are lock and key blocks; you must get the key before you can
+get the lock (you can only have one key at a time).
+
+>Keys
+Use the arrow keys to move. [2nd] pauses, [shift] restarts the
+level by taking away a life, and [ESC] quits the game.
+
+>External Levels
+All levels are external. You must have a least one level set loaded
+in the "MAIN" folder in order to run Diamonds. For information on
+how to make your own level sets, see the source to the Standard
+Levels (zdiastd.asm).
+
+>History
+Version 0.1 <> 19990221
+	Size: 3943
+	-First Release.
+	-10 levels.
+Version 0.2 <> 19990226
+	Size: 4257
+	-15 levels.
+	-Speed option.
+	-Pause feature changed to a shut down feature.
+	-Initials for high score added.
+	-Fixed a bug.
+Version 0.3 <> 19990227
+	Size: 3935 bytes
+	-Levels are now external.
+	-Fixed a few minor bugs.
+	-Changed the restart key.
+Version 0.4 <> 19990227
+	Size: 3941
+	-Bug fix.
+Version 0.5 <> 19990307
+	Size: 3903
+	-Fixed some minor bugs.
+	-Added the reverse arrow block.
+	-External level format is different.
+
+>Future Additions
+	-The ability to load external levels from any folder.
+	-Possibly grayscale; I don't really think it's necessary.
+
+>Credits
+Thanks to the following people:
+	Tim Redmond - Made many levels and tested.
+	Ahmed El-Helw - Inspired me to make the game, tested, and
+		helped convert TI-83 levels.
+	Everyone else I forgot to mention and you for playing Diamonds!
+
+Joe Wingbermuehle
+http://joewing.net
